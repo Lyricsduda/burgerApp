@@ -18,11 +18,7 @@ This is a applicaion that allows users to add burgers that they ether want to ea
  * [License](#license)
         
 * [Contributing](#contributing)
-         
- * [Tests](#tests) 
-         
-* [Other Work](#Other Work)
-
+ 
 ## Installation
 
 To install necessary dependencies, run the following command:
@@ -40,12 +36,6 @@ This project is under the MIT license.
 ## Contributing
         
 > You are free to clone the repo and work on it on your own computer.
-
-## Tests
-
-To run test's, run the following command:
-
-> 
 
 ## Other Work
 
