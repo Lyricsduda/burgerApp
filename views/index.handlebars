@@ -1,7 +1,6 @@
-<h1>Burger!</h1>
-
+<h1>Burger Time!!!</h1>
+<section>
 <h2>Burgers that I want to eat!</h2>
-
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -9,9 +8,9 @@
     {{/unless}}
   {{/each}}
 </ul>
-
+</section>
+<section>
 <h2>Burgers that I have eaten!</h2>
-
 <ul>
   {{#each burgers}}
     {{#if devoured }}
@@ -19,6 +18,7 @@
     {{/if}}
   {{/each}}
 </ul>
+</section>
 
 <h2>Add a burger</h2>
 <form class="create-form">
@@ -29,7 +29,7 @@
   </div>
 
   <div class="form-group">
-    <label for="devoured">Have you tried it before?</label><br>
+    <label for="devoured">Have you tried this burger before?</label><br>
     <input type="radio" name="devoured" value="1" checked> I have<br>
     <input type="radio" name="devoured" value="0"> I have not
   </div>

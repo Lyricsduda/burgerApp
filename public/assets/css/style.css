@@ -1,19 +1,61 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body {
+  font-family: 'Chicle', cursive;  
+  background-color: white;
+  color: black;
+  font-size: 20px;
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+section {
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  background-color: grey;
+  padding: 1em;
+  margin-bottom: 5px;
+  width: 70%;
 }
 
+
 .form-group {
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  background-color: grey;
+  padding: 1em;
   margin-bottom: 5px;
+  width: 70%;
+  font-size: 20px;
+}
+
+
+li {
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  background: white;
+  list-style-type: none;
+  width: 70%;
+  font-size: 20px;
+}
+
+input[type=text]{
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Chicle', cursive;
+  font-size: 20px;
+}
+
+button{
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Chicle', cursive;
+  font-size: 20px;
 }
