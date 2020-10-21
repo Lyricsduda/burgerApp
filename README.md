@@ -21,7 +21,7 @@ This is a applicaion that allows users to add burgers that they ether want to ea
          
  * [Tests](#tests) 
          
-* [Questions](#questions) 
+* [Other Work](#Other Work 
 
 ## Installation
 
