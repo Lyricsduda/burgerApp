@@ -1,4 +1,4 @@
-
+// Declared variables
 var orm = require("../config/orm.js");
 
 var Burger = {
@@ -25,4 +25,5 @@ var Burger = {
   }
 };
 
+// Module export
 module.exports = Burger;

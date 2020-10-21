@@ -1,4 +1,5 @@
 
+// Button to swap between eaten and havve not eaten
 $(function () {
   $(".change-devour").on("click", function (event) {
     var id = $(this).data("id");
@@ -8,7 +9,7 @@ $(function () {
       devoured: newdevour
     };
 
-
+    // Put request
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
       data: newdevourState
@@ -21,6 +22,7 @@ $(function () {
     );
   });
 
+  // Form submit to add a burger
   $(".create-form").on("submit", function (event) {
 
     event.preventDefault();
@@ -30,7 +32,7 @@ $(function () {
       devoured: $("[name=devoured]:checked").val().trim()
     };
 
-
+    // Post request
     $.ajax("/api/burgers", {
       type: "POST",
       data: newburger
@@ -43,10 +45,11 @@ $(function () {
     );
   });
 
+  // Button to delete a burger
   $(".delete-burger").on("click", function (event) {
     var id = $(this).data("id");
 
-
+    // Delete request
     $.ajax("/api/burgers/" + id, {
       type: "DELETE"
     }).then(
