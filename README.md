@@ -29,6 +29,10 @@ To install necessary dependencies, run the following command:
 
 To be used you must download the repo, run npm i in the console, and run node index.js.
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/70404735/96657485-561bd080-1310-11eb-84a8-f3f9b18e0e36.png)
+
 ## License
 
 This project is under the MIT license.
@@ -40,4 +44,3 @@ This project is under the MIT license.
 ## Other Work
 
 You can find more of my work at [Lyricsduda](https://github.com/Lyricsduda).
-        
