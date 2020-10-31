@@ -40,6 +40,8 @@ This project is under the MIT license.
 ## Contributing
         
 > You are free to clone the repo and work on it on your own computer.
+> Otherwise use the deployment link here
+https://burgerrrrapp.herokuapp.com/
 
 ## Other Work
 
